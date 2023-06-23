@@ -36,7 +36,7 @@ nav {
   transform: translateX(-50%);
   width: 105%;
   height: 2px;
-  background-color: #ff0000;
+  background-color: #cb0000;
   opacity: 0;
   transition: 0.4s;
 }
