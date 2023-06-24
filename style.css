@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: OCR A Std, monospace;
+  background: linear-gradient(120deg, rgb(255, 255, 255), #000000);
 }
 #header {
   font-size: 40px;
@@ -48,4 +49,12 @@ nav {
   width: 100%;
   height: 110px;
   background: #000000;
+}
+
+.info-container {
+  border-style: inset;
+  border-width: 10px;
+  border-color: black;
+  width: fit-content;
+  margin-bottom: 20px;
 }
