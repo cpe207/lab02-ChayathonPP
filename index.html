@@ -3,50 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
   </head>
   <body>
-    <div class="navbar">
-      <div class="container">
-        <nav>
-          <h1 style="color: rgb(255, 255, 255)">
-            <b><span id="header">MY PORTFOLIO</span></b>
-          </h1>
+    <div
+      class="d-flex border-bottom gap-4 align-items-center p-2 px-4 bg-dark text-white"
+    >
+      <h1>My Portfolio</h1>
 
-          <ul class="menu">
-            <a href="index.html"><b>Home</b></a>
-            <a href="exp.html"><b>Experiences</b></a>
-            <a href="contact.html"><b>Contact</b></a>
-          </ul>
-        </nav>
+      <a class="me-auto text-white d-none d-sm-block"></a>
+      <a href="index.html" class="text-white d-none d-sm-block">Home</a>
+      <a href="exp.html" class="text-white d-none d-sm-block">Experience</a>
+      <a href="gallery.html" class="text-white d-none d-sm-block">Gallery</a>
+      <a href="contact.html" class="text-white d-none d-sm-block">Contact</a>
+
+      <button class="btn btn-light d-sm-none ms-auto">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-menu-2"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M4 6l16 0"></path>
+          <path d="M4 12l16 0"></path>
+          <path d="M4 18l16 0"></path>
+        </svg>
+      </button>
+    </div>
+
+    <div
+      class="d-flex justify-content-center align-items-center my-5 mx-4 gap-4"
+      style="max-width: 900px"
+    >
+      <div>
+        <img
+          src="https://scontent.fbkk18-2.fna.fbcdn.net/v/t1.15752-9/343531284_635010128642163_6854636976897579398_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGWktXMZx9bE7DRXMcX6GDtThPIw9WcModOE8jD1Zwyhx-I6SwmOptZ7vNJPLVeW3C8MfV1miE6zJhtC8UBA3bn&_nc_ohc=cvtsAeoViL0AX-zAAwM&_nc_oc=AQk4nLqEqm1S1LNK2RFMMPUMAK2BUhHQrrgcax9nrqevWKExDVqBJkZwiMD_IU77llc&_nc_ht=scontent.fbkk18-2.fna&oh=03_AdSL3Iwx7fSTuh7HCeaB9M-uVCQlsuAAn1ANTTLYR-Xo-w&oe=64BD2736"
+          class="rounded-circle"
+          width="200"
+          height="200"
+          style="object-fit: cover"
+        />
+      </div>
+
+      <div class="d-none d-sm-block">
+        <div class="display-5 mb-3">Chayathon Punpang</div>
+        <div class="text-muted">
+          I am currently pursuing my studies at the Faculty of
+          Engineering,specifically in the Computer Department, at Chiang Mai
+          University.
+        </div>
       </div>
     </div>
 
-    <div class="header"> 
-    <p><img src="https://scontent.fbkk18-2.fna.fbcdn.net/v/t1.15752-9/343531284_635010128642163_6854636976897579398_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGWktXMZx9bE7DRXMcX6GDtThPIw9WcModOE8jD1Zwyhx-I6SwmOptZ7vNJPLVeW3C8MfV1miE6zJhtC8UBA3bn&_nc_ohc=cvtsAeoViL0AX-zAAwM&_nc_oc=AQk4nLqEqm1S1LNK2RFMMPUMAK2BUhHQrrgcax9nrqevWKExDVqBJkZwiMD_IU77llc&_nc_ht=scontent.fbkk18-2.fna&oh=03_AdSL3Iwx7fSTuh7HCeaB9M-uVCQlsuAAn1ANTTLYR-Xo-w&oe=64BD2736" 
-       style="float:right;width:25%;height:25%;">
-       <div class="info-container">
-      <h1>
-        <b><span id="header">Hi! I am Chayathon Punpang</span></b>
-      </h1>
-      <p><span id="text">
-        I am currently pursuing my studies at the Faculty of Engineering,</br>
-        specifically in the Computer Department, at Chiang Mai University. </span>
-        
-      </p>
+    <div
+      class="d-flex justify-content-center align-items-center my-5 mx-4 gap-4"
+      style="max-width: 900px"
+    >
+      <div>
+        <img
+          src="https://www.zdnet.com/a/img/resize/0a6b0be2f543ddbf313fc83a706b807b77c3c202/2021/07/19/8a337c80-5ed6-43a1-98fb-b981d420890f/programming-languages-shutterstock-1680857539.jpg?auto=webp&fit=crop&height=900&width=1200"
+          class="rounded-circle"
+          width="200"
+          height="200"
+          style="object-fit: cover"
+        />
+      </div>
+
+      <div class="d-none d-sm-block">
+        <div class="display-5 mb-3">Programming Skills</div>
+        <div class="text-muted">
+          Throughout my previous academic pursuits, I have dedicatedly engaged
+          in the study and exploration of multiple programming languages,
+          including C, C++, HTML, CSS, JavaScript, and Python, acquiring a solid
+          foundation in each of them.
+        </div>
+      </div>
     </div>
-  </div>
-
-  <div class="info-container">
-    <h1><span id="header">Programing Skills</span></h1>
-    <p><span id="text">
-      Throughout my previous academic pursuits, I have dedicatedly engaged</br>
-      in the study and exploration of multiple programming languages,</br>
-      including C, C++, HTML, CSS, JavaScript, and Python, acquiring a</br>
-      solid foundation in each of them.</span>
-    </p>
-
-  </div>
   </body>
 </html>

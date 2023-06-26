@@ -3,57 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
   </head>
   <body>
-    <div class="navbar">
-      <div class="container">
-        <nav>
-          <h1 style="color: rgb(255, 255, 255)">
-            <b><span id="header">MY PORTFOLIO</span></b>
-          </h1>
+    <div
+      class="d-flex border-bottom gap-4 align-items-center p-2 px-4 bg-dark text-white"
+    >
+      <h1>My Portfolio</h1>
 
-          <ul class="menu">
-            <a href="index.html"><b>Home</b></a>
-            <a href="exp.html"><b>Experiences</b></a>
-            <a href="contact.html"><b>Contact</b></a>
-          </ul>
-        </nav>
+      <a class="me-auto text-white d-none d-sm-block"></a>
+      <a href="index.html" class="text-white d-none d-sm-block">Home</a>
+      <a href="exp.html" class="text-white d-none d-sm-block">Experience</a>
+      <a href="gallery.html" class="text-white d-none d-sm-block">Gallery</a>
+      <a href="contact.html" class="text-white d-none d-sm-block">Contact</a>
+
+      <button class="btn btn-light d-sm-none ms-auto">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-menu-2"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M4 6l16 0"></path>
+          <path d="M4 12l16 0"></path>
+          <path d="M4 18l16 0"></path>
+        </svg>
+      </button>
+    </div>
+    <p class="text-center fs-3">Experience</p>
+    <div
+      class="d-flex justify-content-center align-items-center my-5 mx-4 gap-4"
+      style="max-width: 900px"
+    >
+      <div>
+        <img
+          src="https://www.posn.or.th/wp-content/uploads/2019/02/posn-thumb.png"
+          class="rounded-circle"
+          width="200"
+          height="200"
+          style="object-fit: cover"
+        />
+      </div>
+
+      <div class="d-none d-sm-block">
+        <div class="display-5 mb-3">Olympic Computer Camp</div>
+        <div class="text-muted">
+          During my fourth year in high school, I had the opportunity to
+          participate in the Olympic Computer Camp 1. However, I encountered a
+          setback when I did not succeed in the entrance examination for Camp 2.
+          In my fifth year, I once again applied for the Olympic Computer Camp 1
+          and successfully passed the examination to qualify for Camp 2.
+          Unfortunately, my participation in Camp 2 was impeded by the
+          unforeseen circumstances of the COVID-19 pandemic.
+        </div>
       </div>
     </div>
-
-    <div class="header"> 
-    <p><img src="https://scontent.fbkk18-2.fna.fbcdn.net/v/t1.15752-9/343531284_635010128642163_6854636976897579398_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGWktXMZx9bE7DRXMcX6GDtThPIw9WcModOE8jD1Zwyhx-I6SwmOptZ7vNJPLVeW3C8MfV1miE6zJhtC8UBA3bn&_nc_ohc=cvtsAeoViL0AX-zAAwM&_nc_oc=AQk4nLqEqm1S1LNK2RFMMPUMAK2BUhHQrrgcax9nrqevWKExDVqBJkZwiMD_IU77llc&_nc_ht=scontent.fbkk18-2.fna&oh=03_AdSL3Iwx7fSTuh7HCeaB9M-uVCQlsuAAn1ANTTLYR-Xo-w&oe=64BD2736" 
-       style="float:right;width:25%;height:25%;">
-       <div class="info-container">
-      <h1>
-        <b><span id="header">Hi! I am Chayathon Punpang</span></b>
-      </h1>
-      <p><span id="text">
-        I am currently pursuing my studies at the Faculty of Engineering,</br>
-        specifically in the Computer Department, at Chiang Mai University. </span>
-        
-      </p>
-    </div>
-  </div>
-  <div class="info-container">
-    <h1><span id="header">Olympic Computer Camp</span></h1>
-    <p><span id="text">
-      During my fourth year in high school, I had the opportunity to</br>
-      participate in the Olympic Computer Camp 1. However, I encountered a</br>
-      setback when I did not succeed in the entrance examination for Camp 2.</br>
-      In my fifth year, I once again applied for the Olympic Computer Camp 1</br>
-      and successfully passed the examination to qualify for Camp 2.</br>
-      Unfortunately, my participation in Camp 2 was impeded by the unforeseen</br>
-      circumstances of the COVID-19 pandemic..
-    </p>
-
-  </div>
   </body>
 </html>
-
-
-
-
-    
